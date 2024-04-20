@@ -24,7 +24,7 @@ public class AirfareCaluc {
         double totalOverBooked = 0;
         if(showedUpPassengers > planeCapacity) {
             totalOverBooked  = extraPassengers * overBookingFee;
-        };
+        }
 
         //final calculation
         double totalProfit =  totalTicketRevenue - (fixedPlaneCost + totalVariableCost + totalOverBooked);
